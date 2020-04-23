@@ -101,8 +101,8 @@ p {
 /********** Mobile**********/
 @media (max-width: 767px) {
    article {
- 
-    width: 95%;
+  width: 90%;
+     margin: 1%
   }
 }
 
