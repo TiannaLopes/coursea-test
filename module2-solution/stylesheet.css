@@ -46,6 +46,8 @@ right:0px;
     background-color: yellow;
     text-align: right;
      color: white;
+       width: 150px;
+     float:right;
 
 }
 
@@ -54,6 +56,8 @@ right:0px;
     background-color: red;
      text-align: right;
      color: white;
+       width: 150px;
+     float:right;
    
 }
 
@@ -62,6 +66,8 @@ right:0px;
     background-color:blue;
      text-align: right;
      color: white;
+       width: 150px;
+     float:right;
 }
 
 
