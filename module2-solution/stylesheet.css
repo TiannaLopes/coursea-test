@@ -68,7 +68,7 @@ right:0px;
 p {
   color: white;
   
-  padding: 55px, 10px,10px,10px;
+  padding: 10px;
    
 }
 
@@ -78,7 +78,7 @@ p {
 @media (min-width: 992px) {
   article {
     float: left;
-    margin: 1%;
+    margin: 0.5%;
     width: 30%;
   }
 }
@@ -88,15 +88,14 @@ p {
    article {
     float: left;
     margin: 1%;
-    width: 45%;
+    width: 48%;
   }
 }
 
 /********** Mobile**********/
 @media (max-width: 767px) {
    article {
-  
-    margin: .25%;
+ 
     width: 95%;
   }
 }
