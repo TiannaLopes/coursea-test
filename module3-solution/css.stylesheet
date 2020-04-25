@@ -10,9 +10,7 @@ h1 {
   text-align: center;
 }
 
-section h1{
-  font:16px
-  }
+
   section {
     height:250px;
     margin:30;
@@ -53,7 +51,12 @@ section h1{
 }
 .navbar-header button.navbar-toggle {
   clear: both;
-  margin-top: -50px;
+  margin-top: -70px;
+}
+
+.container.jumbotron h1 {
+  font-size: 16px;
+  text-align: center;
 }
 
 
