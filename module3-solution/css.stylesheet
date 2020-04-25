@@ -5,12 +5,10 @@ body {
   background-color: Grey;
   font-family: 'Courier', sans-serif;
 }
-h1 {
-  font-size: 16px;
-  text-align: center;
-}
 
-
+section h1{
+  font:16px
+  }
   section {
     height:250px;
     margin:30;
@@ -54,12 +52,10 @@ h1 {
   margin-top: -70px;
 }
 
-.container.jumbotron h1 {
+.container.jumbotron h2 {
   font-size: 16px;
   text-align: center;
 }
-
-
 
 
 .container .jumbotron {
@@ -67,27 +63,25 @@ h1 {
   border: 2px solid black;
 }
 
-#Chicken-tile, #Beef-tile, #Sushi-tile {
+#Chicken, #Beef, #Sushi {
   height: 250px;
   width: 100%;
   margin-bottom: 15px;
   position: relative;
   border: 2px solid Blue;
-  overflow: hidden;
+  overflow: scroll;
 }
-#Chicken-tile:hover, #Beef-tile:hover, #Sushi-tile:hover {
-  box-shadow: 0 1px 5px 1px #cccccc;
-}
-#Chicken-tile {
+
+#Chicken {
   background-color: blue; 
 }
-#Beef-tile {
+#Beef {
   background-color: blue; 
 }
-#Sushi-tile {
+#Sushi {
   background-color: blue; 
 }
-#Chicken-tile span, #Beef-tile span, #Sushi-tile span {
+#Chicken , #Beef , #Sushi  {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -100,40 +94,13 @@ h1 {
   opacity: .8;
 }
 
-.category-tile { 
-  position: relative;
-  border: 2px solid #3F0C1F;
-  overflow: hidden;
-  width: 200px;
-  height: 200px;
-  margin: 0 auto 15px;
-}
-.category-tile span {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  text-align: center;
-  font-size: 1.2em;
-  text-transform: uppercase;
-  background-color: #000;
-  color: #fff;
-  opacity: .8;
-}
-.category-tile:hover {
-  box-shadow: 0 1px 5px 1px #cccccc;
-}
 
 
-.Chicken.tile {
+.Chicken {
   margin-bottom: 25px;
+    padding-right: 30px;
+
 }
-
-.Chicken.tile-description {
-  padding-right: 30px;
-}
-
-
 
 
 /********** Large devices only **********/
@@ -197,7 +164,7 @@ h1 {
     margin-top: 30px;
     padding: 0;
   }
-  #Chicken.tile, #Beef.tile, #Sushi.tile {
+  #Chicken, #Beef, #Sushi {
     width: 360px;
     margin: 0 auto 15px;
   }
@@ -215,7 +182,7 @@ h1 {
  
   
   /* Home page */
-  #Chicken.tile, #Beef-tile, #Sushi.tile {
+  #Chicken, #Beef, #Sushi {
     width: 280px;
     margin: 0 auto 15px;
   }
@@ -229,4 +196,5 @@ h1 {
     width: 100%;
   }
 }
+
 
