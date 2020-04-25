@@ -5,6 +5,14 @@ body {
   font-family: 'Courier', sans-serif;
 }
 
+section h1{
+  font:16px
+  }
+  section {
+    height:250px;
+    margin:30;
+    border: 1px solid black; 
+  }
 
 #header-nav {
   background-color: Black;
