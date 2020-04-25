@@ -1,4 +1,5 @@
 
+
 body {
   font-size: 16px;
   color: grey;
@@ -15,7 +16,7 @@ section h1{
     border: 1px solid black; 
   }
 
-#header-nav {
+#navbar {
   background-color: Black;
   border-radius: 0;
   border: 0;
@@ -25,29 +26,29 @@ section h1{
   padding-top: 25px;
 }
 
-.navbar-brand a:hover, .navbar-brand a:focus {
+#navbar a:hover, .navbar-brand a:focus {
   text-decoration: none;
 }
 
-#nav-list {
+#list {
   margin-top: 10px;
 }
-#nav-list a {
+#list a {
   color: white;
   text-align: center;
 }
-#nav-list a:hover {
+#list a:hover {
   background: blue;
 }
-#nav-list a span {
+#list a span {
   font-size: 1.8em;
 }
 
 
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+.navbar button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid grey;
 }
-.navbar-header button.navbar-toggle {
+.navbar button.navbar-toggle {
   clear: both;
   margin-top: -70px;
 }
@@ -144,7 +145,7 @@ section h1{
 
   }
  
-  #collapsable-nav a { /* Collapsed nav menu text */
+  #collapsable-nav a { 
     font-size: 1.2em;
   }
 
@@ -156,10 +157,6 @@ section h1{
     text-transform: uppercase;
   }
  
-
-
-
-  /* Home Page */
   .container .jumbotron {
     margin-top: 30px;
     padding: 0;
@@ -175,13 +172,13 @@ section h1{
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
 
-  .navbar-brand  { /* Restaurant name */
+  .navbar  { 
     padding-top: 5px;
     font-size: 6vw;
   }
  
   
-  /* Home page */
+
   #Chicken, #Beef, #Sushi {
     width: 280px;
     margin: 0 auto 15px;
