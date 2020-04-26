@@ -35,6 +35,7 @@ body {
     background-color: grey;
     margin: 20px;
     height: auto;
+  font-color: black;
 }
 
 #Beef{
@@ -42,6 +43,7 @@ body {
     margin: 20px;
     background-color: grey;
     height: auto;
+    font-color: black;
     
 }
 #Sushi{
@@ -49,6 +51,7 @@ body {
     background-color: grey;
     height: auto;
     margin: 20px;
+    font-color: black;
   
     
 }
