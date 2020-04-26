@@ -11,6 +11,7 @@ body {
     background-color: Blue;
     border:0.3 solid black;
     font-color:Black;
+  text-align:left;
 }
 #list.nav-item{
     text-align: center;
