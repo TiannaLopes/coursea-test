@@ -1,91 +1,84 @@
 body {
-  font-size: 16px;
-  color: grey;
-  background-color: Grey;
-  font-family: 'Courier', sans-serif;
+    font-size: 16px;
+    font: courier;
+    color: black;
+    background-color: blue;
 }
+
 
 
 
 #header-nav {
-    background-color: #grey;
+    background-color: blue;
     border-radius: 0;
     border: 0;
-    height: 80px;
 }
 
-
+#header-nav button {
+    margin-top: 20px;
+}
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: #grey;
+    background-color: grey;
 }
 
 .navbar-collapse {
     border-top: 0;
 }
 
+.navbar-brand, .navbar-nav li a {
+    height: 100px;
+    padding-top: 10;
+}
 
+.navbar-brand h1 {
+    color: #7d1913;
+    font-size: 25px;
+}
 
 .navbar-brand a:hover {
     text-decoration: none;
-    text-shadow: 1px 1px 1px #grey;
+    text-shadow: .5px 1px .5px #fe9797;
 }
 
+#nav-list {
+    background-color: blue;
+}
 
+#nav-list a {
+    font-weight: bolder;
+    color: blue;
+    font-size: 20px;
+}
 
 #nav-list a:hover {
-    color: grey;
-    background-color: #blue;
+    color: blue;
+    background-color: grey;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
     border: 1px solid black;
 }
 
-
-@media (min-width:767px){
-    section p{
-       margin: 20px;
-    }
-}
-
-#content #list .nav-item .nav-link{
+#main-section {
     background-color:grey;
-    border: 0.5px solid black;
-    text-align: center;
-    margin: 10px;
-}
-section h2{
-  text-align: center;
-  font:20px;
-  text-color:pink;
-}
-section p{
-   font:20px;
-  text-color:pink;
+    box-shadow: 0 0 50px black;
+    padding: 20px;
 }
 
-#Chicken{
-    background-color: grey;
-    margin: 20px;
-    height: auto;
-  font-color: black;
+#main-content {
+    width: 90%;
+    margin-bottom: 50px;
+
 }
 
-#Beef{
-   
-    margin: 20px;
-    background-color: grey;
-    height: auto;
-    font-color: black;
-    
+#main-content h2 {
+    font-size: 20px;
+    margin: 50px;
 }
-#Sushi{
-   
-    background-color: grey;
-    height: auto;
-    margin: 20px;
-    font-color: black;
-  
-    
+
+#main-content h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
 }
+
