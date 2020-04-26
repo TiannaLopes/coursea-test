@@ -42,7 +42,9 @@ body {
 }
 
 #nav-list {
-    background-color: blue;
+    background-color: grey;
+    width: 90%;
+    
 }
 
 #nav-list a {
