@@ -55,6 +55,15 @@ body {
     text-align: center;
     margin: 10px;
 }
+section h2{
+  text-align: center;
+  font:20px;
+  text-color:pink;
+}
+section p{
+   font:20px;
+  text-color:pink;
+}
 
 #Chicken{
     background-color: grey;
